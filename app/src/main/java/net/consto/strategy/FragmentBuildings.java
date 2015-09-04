@@ -1,20 +1,19 @@
 package net.consto.strategy;
 
-/**
- * Created by moritz on 29.08.15.
- */
 import android.app.Fragment;
 import android.os.Bundle;
-
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class FragmentDetails extends Fragment {
+/**
+ * Created by moritz on 01.09.15.
+ */
+public class FragmentBuildings extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view =inflater.inflate(R.layout.fragment_details, container, false);
-        GUI.setFragViewDetails(view);
+        View view=inflater.inflate(R.layout.fragment_buildings, container, false);
+        GUI.setFragViewBuilding(view);
         return view;
     }
 }

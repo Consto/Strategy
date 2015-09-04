@@ -11,13 +11,19 @@
         android:layout_height="wrap_content"
         android:background="#2f5919">
 
-        <ImageView
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/btnMenu"
-            android:src="@drawable/menu_btn"
-            android:clickable="true"
-            android:layout_margin="10dp" />
+            android:id="@+id/btnMenu">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_btn"
+                android:clickable="true"
+                android:layout_margin="15dp"
+                android:contentDescription="Menu_pic" />
+        </FrameLayout>
     </RelativeLayout>
 
     <RelativeLayout
@@ -32,7 +38,7 @@
             android:layout_alignParentEnd="false"
             android:id="@+id/containerMenu"></FrameLayout>
 
-        <RelativeLayout
+        <FrameLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="right"
@@ -41,23 +47,7 @@
             android:layout_toEndOf="@+id/containerMenu"
             android:id="@+id/FrameMain">
 
-            <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/textView2"
-                android:layout_centerVertical="true"
-                android:layout_toLeftOf="@+id/btnTest"
-                android:layout_toStartOf="@+id/btnTest" />
-
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="New Button"
-                android:id="@+id/btnTest"
-                android:layout_below="@+id/textView2"
-                android:layout_centerHorizontal="true"
-                android:layout_marginTop="179dp" />
-
-        </RelativeLayout>
+        </FrameLayout>
 
         <FrameLayout
             android:layout_width="wrap_content"

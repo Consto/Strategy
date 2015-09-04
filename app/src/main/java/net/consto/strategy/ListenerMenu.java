@@ -8,17 +8,24 @@ import java.util.Objects;
  * Created by moritz on 30.08.15.
  */
 public class ListenerMenu implements View.OnClickListener {
-    private Object p;
+    private Control p;
 
-    public ListenerMenu(Object parent) {
+
+    public ListenerMenu(Control parent) {
         p = parent;
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()) {
-            case 1:
+            case R.id.btnNewGame:
+//                FragmentMenu.testAdd();
                 break;
+            case R.id.btnBuildings:
+                GUI.showFragmentInMain("Buildings");
+                break;
+            case R.id.btnResources:
+                GUI.showFragmentInMain("Resources");
             default:
                 break;
         }

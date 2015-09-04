@@ -20,7 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:clickable="true"
             android:text="@string/buildings"
             android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -35,7 +35,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:clickable="true"
             android:text="@string/resources"
             android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -50,7 +50,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:clickable="true"
             android:text="@string/ranking"
             android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -65,7 +65,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:clickable="true"
             android:text="@string/preferences"
             android:textAppearance="?android:attr/textAppearanceLarge" />
@@ -79,7 +79,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="left"
-            android:layout_marginTop="2dp"
+            android:layout_marginTop="5dp"
             android:clickable="true"
             android:text="@string/newGame"
             android:textAppearance="?android:attr/textAppearanceLarge" />
